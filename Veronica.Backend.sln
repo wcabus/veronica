@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.WebApi", "src\Veronica.Backend.WebApi\Veronica.Backend.WebApi.csproj", "{91A44161-66C7-40E1-8A99-C2B23FCE79C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.Domain", "src\Veronica.Backend.Domain\Veronica.Backend.Domain.csproj", "{D937975D-5920-4E56-A65C-5CFCFB16CB60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Domain", "10. Domain", "{0DBD18DA-FE21-4B81-8C81-F5242B47A499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.Domain.Tests", "src\Veronica.Backend.Domain.Tests\Veronica.Backend.Domain.Tests.csproj", "{F69DFD62-F69E-470F-BB85-BC542A0E30AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "80. Application", "80. Application", "{A59BF678-476D-4A76-8F24-84B905FA186D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.Application", "src\Veronica.Backend.Application\Veronica.Backend.Application.csproj", "{A9F97003-C12F-471D-8185-ADD6C77DEE69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90. Web API", "90. Web API", "{64A6B67A-11AD-42B1-9424-E46671758A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.ApiModels.V1", "src\Veronica.Backend.ApiModels.V1\Veronica.Backend.ApiModels.V1.csproj", "{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Data", "20. Data", "{1EB37BBC-1170-4632-A1F1-DD77C86CDE9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veronica.Backend.Domain.EF", "src\Veronica.Backend.Domain.EF\Veronica.Backend.Domain.EF.csproj", "{14CF3C0A-03DA-411E-A26D-44D281CE8A8E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Veronica.SQLdb", "src\Veronica.SQLdb\Veronica.SQLdb.sqlproj", "{198E9170-C874-4BAE-A138-3781E52CC56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A44161-66C7-40E1-8A99-C2B23FCE79C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A44161-66C7-40E1-8A99-C2B23FCE79C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A44161-66C7-40E1-8A99-C2B23FCE79C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A44161-66C7-40E1-8A99-C2B23FCE79C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D937975D-5920-4E56-A65C-5CFCFB16CB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D937975D-5920-4E56-A65C-5CFCFB16CB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D937975D-5920-4E56-A65C-5CFCFB16CB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D937975D-5920-4E56-A65C-5CFCFB16CB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69DFD62-F69E-470F-BB85-BC542A0E30AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69DFD62-F69E-470F-BB85-BC542A0E30AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69DFD62-F69E-470F-BB85-BC542A0E30AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69DFD62-F69E-470F-BB85-BC542A0E30AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F97003-C12F-471D-8185-ADD6C77DEE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F97003-C12F-471D-8185-ADD6C77DEE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F97003-C12F-471D-8185-ADD6C77DEE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F97003-C12F-471D-8185-ADD6C77DEE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CF3C0A-03DA-411E-A26D-44D281CE8A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF3C0A-03DA-411E-A26D-44D281CE8A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF3C0A-03DA-411E-A26D-44D281CE8A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF3C0A-03DA-411E-A26D-44D281CE8A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198E9170-C874-4BAE-A138-3781E52CC56F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91A44161-66C7-40E1-8A99-C2B23FCE79C5} = {64A6B67A-11AD-42B1-9424-E46671758A88}
+		{D937975D-5920-4E56-A65C-5CFCFB16CB60} = {0DBD18DA-FE21-4B81-8C81-F5242B47A499}
+		{F69DFD62-F69E-470F-BB85-BC542A0E30AE} = {0DBD18DA-FE21-4B81-8C81-F5242B47A499}
+		{A9F97003-C12F-471D-8185-ADD6C77DEE69} = {A59BF678-476D-4A76-8F24-84B905FA186D}
+		{6D91BBC4-40A5-470B-8B13-4C7A60B8E06E} = {64A6B67A-11AD-42B1-9424-E46671758A88}
+		{14CF3C0A-03DA-411E-A26D-44D281CE8A8E} = {1EB37BBC-1170-4632-A1F1-DD77C86CDE9E}
+		{198E9170-C874-4BAE-A138-3781E52CC56F} = {1EB37BBC-1170-4632-A1F1-DD77C86CDE9E}
+	EndGlobalSection
+EndGlobal
